@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Join</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>Baguette's Basecamp</header>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="join.html">Join</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="forum.html">Forum</a>
+        </nav>
+        <div class="container">
+            <div class="title">Registration Form</div>
+            <div class="content">
+            <form id="form" action="#">
+                <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Full Name</span>
+                    <input type="text" id="nama" placeholder="Enter your name here" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Email</span>
+                    <input type="text" id="email" placeholder="Enter your email here" required>
+                </div>
+                <div class="check-box">
+                    <span class="details">Device</span>
+                    <input name="device" type="checkbox" id="pc" value="PC">PC
+                    <input name="device" type="checkbox" id="mobile" value="Mobile">Mobile
+                </div>
+                <div class="check-box">
+                    <span class="details">Division</span>
+                    <select name="Division" id="division">
+                        <option value="Baguette A">Baguette A</option>
+                        <option value="Baguette A">Baguette B</option>
+                    </select>
+                </div>
+                <div class="check-box">
+                    <span class="details">Gender</span>
+                    <input type="radio" id="gender" value="Male">Male
+                    <input type="radio" id="gender" value="Female">Female
+                </div>
+                <div class="file-box">
+                    <span class="details">Reason for joining</span>
+                    <textarea id="alasan" cols="30" rows="5" placeholder="Input here..."></textarea>
+                    
+                </div>
+                </div>
+                <div class="button">
+                <input type="submit" value="Submit">
+                </div>
+            </form>
+            </div>
+        </div>
+        <footer>Copyright© 2023
+        </footer>
+        <script src="form.js"></script>
+    </body>
+</html>
